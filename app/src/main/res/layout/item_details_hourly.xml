@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="75dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        style="@style/MainText14sp"
+        android:text="СЕЙЧАС" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvUpper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/BlueText14sp"
+        android:gravity="center_horizontal"
+        android:text="70%" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat=""
+        android:gravity="center_horizontal" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvLower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        style="@style/SansSerifMedium14sp"
+        android:text="25°" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
